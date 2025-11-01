@@ -56,6 +56,7 @@ metadata:
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:366137855364:certificate/b2c42afc-c0ab-48ca-81c4-80f06e34b581
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/group.name: balasaichen
 spec:
   ingressClassName: alb
   rules:
